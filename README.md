@@ -32,7 +32,14 @@ This portfolio demonstrates practical cybersecurity skills applicable to:
 **System Recovery:** Resolved WSL2 DNS failure `Temporary failure resolving 'archive.ubuntu.com'` by rebuilding `/etc/resolv.conf` with `nameserver 8.8.8.8`
 
 **Tools Installed:** Nmap 7.98, 69 packages upgraded via `apt`
-
+**Web Application Security Lab:** July 12, 2026
+- **Environment:** DVWA v1.10 on WSL2 Kali Linux
+- **Vulnerabilities Documented:** 
+    - Command Injection → RCE as `www-data`
+    - SQL Injection → Authentication bypass + data dump
+    - Reflected XSS → JavaScript execution via `<script>alert('Delphin was here')</script>`
+- **Skills:** OWASP Top 10 testing, PoC development, technical documentation, risk analysis
+- **Evidence:** [View XSS Writeup](./DVWA/03-xss-reflected/README.md)
 **First Scan Output:** 
 ## Contact
 Delphin Hakizimana  
